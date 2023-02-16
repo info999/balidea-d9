@@ -1,0 +1,26 @@
+uuid: 914dbafa-7757-45b9-a1a5-577e1f130ecb
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+  module:
+    - config_translation
+    - filter
+    - search
+    - shortcut
+    - system
+    - test_module
+_core:
+  default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access shortcuts'
+  - 'administer test_module configuration'
+  - 'search content'
+  - 'translate configuration'
+  - 'use text format basic_html'

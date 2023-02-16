@@ -1,0 +1,3 @@
+text_field:
+  value: '<p>spa<em>nish</em><br><strong>text</strong></p><p><strong>88</strong></p><p><strong>spa</strong><em><strong>nish</strong></em><br><strong>textspa</strong><em><strong>nish</strong></em><br><strong>textspa</strong><em><strong>nish</strong></em><br><strong>text</strong></p><p><strong>555</strong></p>'
+  format: basic_html

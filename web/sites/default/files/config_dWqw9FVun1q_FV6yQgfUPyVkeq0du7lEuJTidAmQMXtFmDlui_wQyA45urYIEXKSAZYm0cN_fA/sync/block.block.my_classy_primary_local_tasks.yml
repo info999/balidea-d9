@@ -1,0 +1,22 @@
+uuid: 292829d3-6fb0-4c16-b020-e3524b0be954
+langcode: en
+status: true
+dependencies:
+  theme:
+    - my_classy
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: my_classy_primary_local_tasks
+theme: my_classy
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

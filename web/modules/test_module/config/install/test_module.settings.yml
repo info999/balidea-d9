@@ -1,0 +1,5 @@
+langcode: en
+
+text_field:
+  value: ''
+  format: 'basic_html'

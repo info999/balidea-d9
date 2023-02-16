@@ -1,0 +1,22 @@
+uuid: 82434949-a93b-426a-9d37-3300aae5fc5c
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - my_classy
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: my_classy_help
+theme: my_classy
+region: content
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

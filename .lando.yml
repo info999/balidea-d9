@@ -1,0 +1,5 @@
+name: drupal9-balidea
+recipe: drupal9
+config:
+  webroot: web
+  xdebug: true

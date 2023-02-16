@@ -1,0 +1,9 @@
+name: my_classy
+type: theme
+core_version_requirement: ^9
+description: Custom Classy theme
+base theme: classy
+
+libraries:
+  - my_classy/global-styling
+  - my_classy/global-scripts

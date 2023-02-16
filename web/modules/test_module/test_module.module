@@ -1,0 +1,32 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function test_module_theme($existing, $type, $theme, $path) {
+
+  return [
+    'test-module-test-page' => [
+      'render element' => 'children',
+      'variables' => [
+        'text_field' => '',
+        'integer_field' => '',
+      ],
+      'template' => 'test-module-test-page',
+    ],
+  ];
+
+}
+
+
+
+/**
+ * Add a class to the body
+ */
+function test_module_preprocess_html(&$variables) {
+  $node = \Drupal::routeMatch()->getParameter('node');
+  if($node) {
+    $variables['attributes']['class'][] = $node->bundle();
+  }
+}
+
